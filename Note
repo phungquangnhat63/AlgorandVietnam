@@ -1,0 +1,22 @@
+Để sử dụng ứng dụng này, bạn cần:
+
+1. Cài đặt các thư viện cần thiết:
+bashCopypip install py-algorand-sdk pyteal
+
+2. Cập nhật các thông tin cấu hình:
+API token của Algorand
+Địa chỉ node Algorand
+URL metadata cho NFT
+
+3. Triển khai smart contract:
+Chạy script để compile và triển khai smart contract
+Lưu app_id được trả về
+
+4. Tạo NFT template:
+Sử dụng phương thức create_nft_ticket
+Cấu hình metadata phù hợp
+
+5. Xử lý giao dịch mua vé:
+Người dùng gọi phương thức buy_ticket
+Smart contract kiểm tra điều kiện và xử lý thanh toán
+NFT được phát hành cho người mua
